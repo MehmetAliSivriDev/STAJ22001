@@ -1,0 +1,54 @@
+{
+    "_kartelaappwordsTR" : "_kartelaappwordsTR", 
+    "_messages" : "messages",
+    "errorOccured" : "Bir Hata Meydana Geldi",
+    "synchronizeDataSucess" : "Veriler Başarıyla Senkronize Edildi",
+    
+    "_languages" : "languages",
+    "turkish" : "Türkçe",
+    "english" : "İngilizce",
+    
+    "_drawerWords" : "_drawerWords",
+    "dataAddTitle" : "Veri Ekleme",
+    "dataAddSubtitle" : "Varyant-Desen-vb. Verileri Ekleme",
+    "viewDataTitle" : "Veri Görüntüleme",
+    "viewDataSubtitle" : "Kartela Verilerini Görüntüleme",
+    "systemSettings" : "Sistem Ayarları",
+    
+    "_systemSettingsWords" : "_systemSettingsWords",
+    "settings" : "Ayarlar",
+    "changeLanguageSettingTitle" : "Dil Değiştir",
+    "changeLanguageSettingSubtitle" : "Uygulamanın Dilini Değiştir",
+    "synchronizeDataSettingTitle" : "Verileri Senkronize Et",
+    "synchronizeDataSettingSubtitle" : "Serverdaki verilerle localdeki verileri senkronize et",
+   
+    "_dataDisplayWords" : "_dataDisplayWords",
+    "numberofDataDisplayed" : "Görüntülenen Veri Sayısı",
+    "variant" : "Varyant",
+    "pattern" : "Desen",
+    "patternCode" : "Desen Kod", 
+    "com" : "Com",
+    "color" : "Renk",
+    "type" : "Tip",
+    "kg" : "KG",
+    "width" : "En",
+    "kWidth" : "kEn",
+    "search" : "Ara",
+    "refresh" : "Yenile",
+    "barcode" : "Barkod",
+   
+    "_homeWords" : "_homeWords",
+    "homeTitle" : "Anasayfa",
+    "plsScanKartela" : "Lütfen Kartela Taratınız",
+
+    "_loginWords" : "_loginWords",
+    "login" :  "Giriş Yap",
+    "mail" : "Email",
+    "companyName" : "Firma Adı"
+
+    
+
+
+
+
+}

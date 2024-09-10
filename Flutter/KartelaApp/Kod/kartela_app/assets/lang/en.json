@@ -1,0 +1,50 @@
+{
+    "_kartelaappwordsEN" : "_kartelaappwordsEN",
+    "_messages" : "messages",
+    "errorOccured" : "An Error Occurred",
+    "synchronizeDataSucess" : "Data Synchronized Successfully",
+    
+    "_languages" : "languages",
+    "turkish" : "Turkish",
+    "english" : "English",
+    
+    "_drawerWords" : "_drawerWords",
+    "dataAddTitle" : "Add Data",
+    "dataAddSubtitle" : "Adding Variant-Pattern etc. Data",
+    "viewDataTitle" : "Data Display",
+    "viewDataSubtitle" : "Viewing Kartela Data",
+    "systemSettings" : "System Settings",
+    
+    "_systemSettingsWords" : "_systemSettingsWords",
+    "settings" : "Settings",
+    "changeLanguageSettingTitle" : "Change Language",
+    "changeLanguageSettingSubtitle" : "Change the Language of the App",
+    "synchronizeDataSettingTitle" : "Synchronize Data",
+    "synchronizeDataSettingSubtitle" : "Synchronize local data with data on the server",
+    
+    "_dataDisplayWords" : "_dataDisplayWords",
+    "numberofDataDisplayed" : "Number of Data Displayed",
+    "variant" : "Variant",
+    "pattern" : "Pattern",
+    "patternCode" : "Pattern Code", 
+    "com" : "Com",
+    "color" : "Color",
+    "type" : "Type",
+    "kg" : "KG",
+    "width" : "width",
+    "kWidth" : "kWidth",
+    "search" : "Search",
+    "refresh" : "Refresh",
+    "barcode" : "Barcode",
+    
+    "_homeWords" : "_homeWords",
+    "homeTitle" : "Home",
+    "plsScanKartela" : "Please Scan the Kartela",
+
+    "_loginWords" : "_loginWords",
+    "login" :  "Login",
+    "mail" : "Email",
+    "companyName" : "Company Name"
+
+    
+}

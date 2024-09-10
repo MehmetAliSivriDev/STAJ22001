@@ -1,0 +1,400 @@
+object Form1: TForm1
+  Left = 381
+  Top = 275
+  Width = 571
+  Height = 580
+  Caption = 'Form1'
+  Color = clBlack
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  OnCreate = FormCreate
+  PixelsPerInch = 96
+  TextHeight = 13
+  object TSonuc: TEdit
+    Left = -1
+    Top = 0
+    Width = 371
+    Height = 33
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clBlack
+    Font.Height = -21
+    Font.Name = 'Tahoma'
+    Font.Style = [fsBold]
+    ParentFont = False
+    ReadOnly = True
+    TabOrder = 0
+  end
+  object BBackspace: TButton
+    Left = 276
+    Top = 68
+    Width = 94
+    Height = 43
+    Caption = '<-------'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -16
+    Font.Name = 'Tahoma'
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 1
+    OnClick = BBackspaceClick
+  end
+  object BClear: TButton
+    Left = 186
+    Top = 68
+    Width = 89
+    Height = 45
+    Caption = 'C'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -16
+    Font.Name = 'Tahoma'
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 2
+    OnClick = BClearClick
+  end
+  object BNumber9: TButton
+    Left = 186
+    Top = 114
+    Width = 93
+    Height = 71
+    Caption = '9'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -16
+    Font.Name = 'Tahoma'
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 3
+    OnClick = BNumber9Click
+  end
+  object BNumber8: TButton
+    Left = 92
+    Top = 114
+    Width = 93
+    Height = 71
+    Caption = '8'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -16
+    Font.Name = 'Tahoma'
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 4
+    OnClick = BNumber8Click
+  end
+  object BNumber7: TButton
+    Left = 0
+    Top = 114
+    Width = 93
+    Height = 73
+    Caption = '7'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -16
+    Font.Name = 'Tahoma'
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 5
+    OnClick = BNumber7Click
+  end
+  object BNumber6: TButton
+    Left = 186
+    Top = 183
+    Width = 93
+    Height = 73
+    Caption = '6'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -16
+    Font.Name = 'Tahoma'
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 6
+    OnClick = BNumber6Click
+  end
+  object BNumber5: TButton
+    Left = 92
+    Top = 183
+    Width = 93
+    Height = 73
+    Caption = '5'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -16
+    Font.Name = 'Tahoma'
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 7
+    OnClick = BNumber5Click
+  end
+  object BNumber4: TButton
+    Left = 0
+    Top = 185
+    Width = 93
+    Height = 73
+    Caption = '4'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -16
+    Font.Name = 'Tahoma'
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 8
+    OnClick = BNumber4Click
+  end
+  object BNumber3: TButton
+    Left = 187
+    Top = 255
+    Width = 93
+    Height = 73
+    Caption = '3'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -16
+    Font.Name = 'Tahoma'
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 9
+    OnClick = BNumber3Click
+  end
+  object BNumber2: TButton
+    Left = 93
+    Top = 255
+    Width = 93
+    Height = 73
+    Caption = '2'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -16
+    Font.Name = 'Tahoma'
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 10
+    OnClick = BNumber2Click
+  end
+  object BNumber1: TButton
+    Left = 1
+    Top = 257
+    Width = 93
+    Height = 73
+    Caption = '1'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -16
+    Font.Name = 'Tahoma'
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 11
+    OnClick = BNumber1Click
+  end
+  object BNumber0: TButton
+    Left = 92
+    Top = 328
+    Width = 93
+    Height = 73
+    Caption = '0'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -16
+    Font.Name = 'Tahoma'
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 12
+    OnClick = BNumber0Click
+  end
+  object BPlus: TButton
+    Left = 277
+    Top = 110
+    Width = 93
+    Height = 73
+    Caption = '+'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -16
+    Font.Name = 'Tahoma'
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 13
+    OnClick = BPlusClick
+  end
+  object BExt: TButton
+    Left = 277
+    Top = 181
+    Width = 93
+    Height = 73
+    Caption = '-'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -16
+    Font.Name = 'Tahoma'
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 14
+    OnClick = BExtClick
+  end
+  object BDivide: TButton
+    Left = 279
+    Top = 253
+    Width = 93
+    Height = 75
+    Caption = '/'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -16
+    Font.Name = 'Tahoma'
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 15
+    OnClick = BDivideClick
+  end
+  object BEqual: TButton
+    Left = 276
+    Top = 400
+    Width = 93
+    Height = 75
+    Caption = '='
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -16
+    Font.Name = 'Tahoma'
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 16
+    OnClick = BEqualClick
+  end
+  object BMult: TButton
+    Left = 278
+    Top = 327
+    Width = 93
+    Height = 75
+    Caption = '*'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -16
+    Font.Name = 'Tahoma'
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 17
+    OnClick = BMultClick
+  end
+  object MPast: TMemo
+    Left = 369
+    Top = -1
+    Width = 185
+    Height = 476
+    Enabled = False
+    Lines.Strings = (
+      '')
+    TabOrder = 18
+    Visible = False
+  end
+  object BPast: TAdvSmoothButton
+    Left = 124
+    Top = 68
+    Width = 63
+    Height = 46
+    Status.Caption = '0'
+    Status.Appearance.Fill.Color = clRed
+    Status.Appearance.Fill.ColorMirror = clNone
+    Status.Appearance.Fill.ColorMirrorTo = clNone
+    Status.Appearance.Fill.GradientType = gtSolid
+    Status.Appearance.Fill.GradientMirrorType = gtSolid
+    Status.Appearance.Fill.BorderColor = clGray
+    Status.Appearance.Fill.Rounding = 0
+    Status.Appearance.Fill.ShadowOffset = 0
+    Status.Appearance.Fill.Glow = gmNone
+    Status.Appearance.Font.Charset = DEFAULT_CHARSET
+    Status.Appearance.Font.Color = clWhite
+    Status.Appearance.Font.Height = -11
+    Status.Appearance.Font.Name = 'Tahoma'
+    Status.Appearance.Font.Style = []
+    Picture.Data = {
+      89504E470D0A1A0A0000000D494844520000003000000030080300000060DC09
+      B500000300504C544547704C003C6BE8E7E8EEEEEED1D1D1ADADADA6A6A7BAB9
+      B9F8F7F7666666919AA09B9C9D1B1E205C5B5BABAAA9D8D9D95D687068676743
+      4344412F26525C65252424272524AEB2B40033626565654A4B4B3098AF808182
+      373532011C36C3BBB7D9CBC73A444A1414143939397BBFCE383C423B39383738
+      3DBBB0AC929393065B7E58524F858B8D006EBCBECFD5B2B7B9D5D5D67576770F
+      1D25393736403C3B0650822B84A19AB6C12439460063B26767678F92951F1F1F
+      2826267776789A9C9EE4E4E5BBBDBD434241535E69288CC757B3DC6CB1C11413
+      144F9CBC57535361CCEB24282BA29A96AEB9B9B1CCD793C3D5495A6335667B1F
+      597122455ED7D6D6E1DFDF4949497272720A0A0A4A4746686A6D5D5E61EAEAEA
+      002034182D3BD3D1D0362E2AFDFBFB3F96A878AABC151210C9ECED44BAC82514
+      130D34578AE4EC76D0E4BCE4EA3A86AF2274A7087EC607639DF1E8E61C91AC22
+      597C113E5BFEE9E4F2F2F3E0DEDE989A9C606060F4F4F4B8B8B8507C99BDBDC0
+      6B95AEFFFAF50095E33E37388AB3CC63605EBFB1A848403E97B7CC68AECF45AF
+      DF8AE4F36ED8EE6BD3ECC4C5C5A5A6A6DFDEDEBDBCBC2442531659842B3E4911
+      5C8B1584C8BDBCBC2EACDF2694C91E73A91D6297FFC289F3F1F1EBEBEBB0B0B0
+      626263FFFEFEC2C2C38B89898485878F8F90BEBEBFD6D5D6C5C8C8E4E4E5B4B4
+      B3E1E0E0A0A0A0CECDCD2B2D2E8B8C8EEFEFEFB7B7B6A2A3A4CBC9C900548D7B
+      7C7D635F5D014C7D6B6B6A949698023152FEF6F3004872767676999899707071
+      DCDCDC3E3E3F505355978F8BABA7A4666768343536C8C4C36E9FB7A6ABAD6483
+      9807080D7AB2C6837B767A736F7AA3BBE7D7D451C1CD86828016719084CDD970
+      7D86CCBBB37982883AA8BE8FD8E39CB6C5B9C3C6AFA19B7367625373890B6791
+      5B727C2FBFE835CAF74BAEC0003C6F97A2AB4F9BB4005D9F44829E2E51671884
+      BC2A658AE5DDD941E7FF869DAA24A3E186B3CDEBE6E5BBA99E7EE7ED89A9BBD0
+      DDE09BE7F230B1CF1484A01B384A7E99A94A8CB30F6F858C9FA55CC2D40694E4
+      52CDDB57CFE01AA3BE5CC2FE28000000F774524E5300FEFFFEFEFDFEFDFE7E06
+      FDFEFEFEFE115AFEBC34FE3910FE74FEFEFEC1FEFEFE1AFEFBFD56BF28FDFEFE
+      FDFEFEFE3B56E59A9AACDAFE27C9FE28DDF15FFB717C989543688AFD78C5C48C
+      CDFEFEFAFEF9FDFEFE4265A672D382C69585ADF1CAB1E5F3FE63FDF4B0D5FED0
+      FEC9EAFDE9D6FE9DFEFEE2DFA0EFBCC9F3D6E7F2E3E4D1EDB7D0EBB174D4A49E
+      E4AFE6B9EAFDE3DFA3A4F3DBAC70FFFFFFFFFFFFFFFFFFFFFEFFFFFFFFFFFFFF
+      FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+      FFFFFEFFFFFEFFFFFFFFFFFFFFFFFFFFFFFFFEFFFFFFFFFFFFFFFFFFFFFFFFFF
+      FFFFFFFFFFFFFFFFFFFFFFFED2BB997D0000056B4944415448C7C59675705457
+      1487B3FB76DF6E584B9618212E8DA71042422809EEEED0E256DCEBEEDE52EFEC
+      93DDB7EE6E598D6C84B810E209C13558B1FA4B86A1096C6098E94CCFDFBFEF1E
+      B9E79C7B7D7CFE0BCBCE7E2AF924A5C981CCF6F399F4124BF4E6C427CA8329A6
+      52D0CE43908D644C5F8460CF3D413F4CADE49A2B2A17857164A534CCC127C34F
+      20BEE0CB7929877A8C285300F2F5B357C32CD163A39A8C7167877624875861B9
+      5AC643C6CEFC504CA53D2E01B360E6969159750BA322CF2E2EA85DA223AC1343
+      9A678706BED4D08236358D3C60A574EA7A90369DCEA2500935AF0CED804FCACC
+      F8EB44D3026D942E87E036E88C1106AA483674DA1341F98BDB6A6AB655CB2373
+      4E1318954742CE7AC414B37248603457B6E8CF9A9A195A69628E2EA48DA75CCA
+      014A5353B16143E8FD306DC599A6134DBF09858DA7434EDAF8E40B85265B21D7
+      1E3C04E02F13B48DC4CD23D7AAB1063E4326686F47594929B24943002F48E077
+      6F65656D8A2271C9F630B7B677E9952B1D507ABADEB6C63BF03C3C7A66475D5D
+      899054D85EE0C0D0164B5989EECC82E6E65ADE32EF39835B328C75C9CDF2C61C
+      E32284C5B96429ABD2F5542DB87EA752E015C8A305ADCD4FCEBF115996A63B64
+      40D13B96AA2BE7CF54357FF45643ED286F80CD1CB4D6984F10B79E4FD3DD3651
+      A9E98B171EDD5C5252F2DEF4B28AD7BD7AE0E76618F343A4F38EA4115C08A412
+      CF587814B7AA8FA7BDA19778CD419937170784F3CE9FB618DC1ECE85E3A74EC5
+      C5C56D9EFEC9EE636AAF55C2C24271A04586E53353184954797AD38919F5F571
+      73A6CF6A88F47A0F983E85904F38092655321896880BE2C4FADFE38ED7EFFC7C
+      CEAC86F583A5A3FABB65AADE665867EC6997600EDB524B0422A0B41EBFB6A3FE
+      D3CFE6CC2A7CA84ACBC4CBF1710E2E428A32B6E79FA5D81C15044B443193CC6C
+      DC7A6DC7CD9B3B5B363E12CECB448083DA1137F2B6B127928185E14028980ACA
+      12ABB7EEDAD58BEE1FE461D8F2F54E2D57AC4251069B8DB86E8785F10B7A2C11
+      B59A63989DAFE4F3787C271582D60C68F2AFA544920426F5A24476319BCD2EE6
+      62027A390536D3344ABB19E48A4135192542AAD7EE0F77F6574E900410B9640A
+      8B4A4502150A7A9140E0F488C0249A52AD574B55003FD4CD445522E6E4FB83F1
+      0311524B882AA104E64A5514C4555CCE97034481596996876272004263E82607
+      85A6214FEE7711BC5F4B637158A010D7C0647B9E89E10A2C6708B9320D971F6A
+      6E1139212A4C0F4C32C089573FE807B24F1D966A040024A1408010E4E5151918
+      ECD8C0721782B853E7CF9F9F2E000094AE889DD779F98F77A6F501DFFFBAA49A
+      2300892A12E854B1687A4791C16133994C7A99E886A8B45423E400BC0A3C2FDE
+      B80D41D1FD959AD67D2FD1CA92910008E6129D12258685D13C243115A5AA7A3D
+      648F9058707D4F60315DF67E42F4FDAA4EED3E70CC4A8429904A4E96424E3513
+      9650A92847AA65F21C292E7D6BC9B80D1B8A03D9F0EA07F790F063D7E2C31C39
+      530A106111A02249285A164563371714C8CADC6D2573C704F94C888DE129C7FF
+      7BD7BB2FDE8BB28AC972482582A590D4E981E1C256FBDD3D63BFA5977D93E93F
+      757CBC42A150BF3AA03D0E5EBC45B3425C0A1110C35A9148C0BC7AE9DCD8F0E1
+      E1E173B74FF1F5F51DE13FC11563524F1940C45FFCBBD3AA72C24E228407DF78
+      722F2E7F664C7C4280FF08DF3E5BA128A6C3FC8001444257175E5F88A21592A3
+      04E7F6E1F229417D55F41BDF8FAC9CE0A21B44B1839AF6A7EEE4482B20D756DF
+      4D1B879F1EF460E7F67B59A17029DCE58387E2E7EE8E54ABF552DA77C3C333E3
+      07AEEC3E64654C60CCAAE887C6E897AE739D597BF1E373FD1EDEEC38B22AF7D1
+      3D1070F9F23E3CF8042FEFB15FB4F737E2E0F0CCF8A7FB680444FBFCBFF60FCC
+      2959CEF22E35B60000000049454E44AE426082}
+    TabOrder = 19
+    Version = '2.0.2.2'
+    OnClick = BPastClick
+  end
+end
