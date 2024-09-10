@@ -1,0 +1,386 @@
+******ZPL KODLARI*****
+
+Birinci Kod
+
+^XA
+
+^FO 250,50^ADR,36,20
+^FD Mehmet Ali Sivri
+^FS
+^FO 150,50^ADR,36,20
+^FD Bursa Nilufer
+^FS
+^FO 50,50^ADR,36,20
+^FD Peykan Yazilim
+
+^FS
+^XZ
+
+
+---------------
+
+İkinci Kod - Değişkensiz
+
+^XA
+
+^FO 250,50^ADR,36,20
+^FD DESEN NO
+^FS
+^FO 250,300^ADR,36,20
+^FD :
+^FS
+^FO 250,340^ADR,36,20
+^FD 1111
+^FS
+
+^FO 200,50^ADR,36,20
+^FD METRAJ
+^FS                                                                  
+^FO 200,300^ADR,36,20
+^FD :
+^FS
+	
+^FO 200,340
+^GB 45, 230, 45
+^FS
+^FO 200,340^ADR,36,20
+^FD 25.00 mt
+^FS
+
+^FO 150,50^ADR,36,20
+^FD EN
+^FS
+^FO 150,300^ADR,36,20
+^FD :
+^FS
+^FO 150,340^ADR,36,20
+^FD 250
+^FS
+
+^FO 100,75^ADR,36,20
+^FD NOT:
+^FS
+^FO 85,75^ADR,20,12
+^FD Kesilen Maldan Sorumluluk Kabul Edilmez
+^FS
+
+
+^XZ
+
+---------------
+
+İkinci Kod - Değişkene Dönüştürülmüş (FV Kullanıldı)
+
+
+^XA
+
+^FO 250,50^ADR,36,20
+^FD DESEN NO
+^FS
+^FO 250,300^ADR,36,20
+^FD :
+^FS
+^FO 250,340^ADR,36,20
+^FV 1111
+^FS
+
+^FO 200,50^ADR,36,20
+^FD METRAJ
+^FS                                                                  
+^FO 200,300^ADR,36,20
+^FD :
+^FS
+^LRY
+^FO 200,340
+^GB 45, 230, 45
+^FS
+^FO 200,340^ADR,36,20
+^FV 25.00
+^FS
+^FO 200,500^ADR,36,20
+^FD mt
+^FS
+
+^FO 150,50^ADR,36,20
+^FD EN
+^FS
+^FO 150,300^ADR,36,20
+^FD :
+^FS                                            
+^FO 150,340^ADR,36,20
+^FV 250
+^FS
+
+^FO 100,75^ADR,36,20
+^FD NOT:
+^FS
+^FO 85,75^ADR,20,12
+^FD Kesilen Maldan Sorumluluk Kabul Edilmez
+^FS
+
+
+^XZ
+
+---------------
+
+Aynı Tasarım Belirli Özellikler Eklenerek Gerçekleştirildi
+
+
+^XA
+^PW400
+^PR 2,2
+^MTT
+^XZ
+
+^XA
+
+^FO 250,50^ADR,36,20
+^FD DESEN NO^FS
+^FO 250,300^ADR,36,20
+^FD :^FS
+^FO 250,340^ADR,36,20
+^FV 1111^FS
+
+^FO 200,50^ADR,36,20
+^FD METRAJ^FS
+^FO 200,300^ADR,36,20
+^FD :^FS
+^LRY
+^FO 200,340
+^GB 45, 230, 45^FS
+^FO 200,340^ADR,36,20
+^FV 25.00^FS
+^FO 200,500^ADR,36,20
+^FD mt^FS
+
+^FO 150,50^ADR,36,20
+^FD EN^FS
+^FO 150,300^ADR,36,20
+^FD :^FS
+^FO 150,340^ADR,36,20
+^FV 250^FS
+
+^FO 100,75^ADR,36,20
+^FD NOT:^FS
+^FO 85,75^ADR,20,12
+^FD Kesilen Maldan Sorumluluk Kabul Edilmez^FS
+
+
+^XZ                           
+
+
+--------
+
+
+Üçüncü Kod - Barkod ve Değişkenli
+
+^XA^PW 320^LL 640 ^PR 2,2^MTT^CI 2^SL 1^JUS^SD 10^^XZ
+
+^XA
+
+^FO 100,50^ADR^BY2
+^BCN,50,Y,N,N
+^FDABCDEF^FS
+
+^FO 250,150
+^GB 60, 400, 3^FS
+^FO 250,180^ADR, 36,20
+^FD PEYKAN YAZILIM^FS
+
+^FO 100, 150
+^GB 150,400, 2^FS
+^FO 210, 155^ADR,20,20
+^FD Product^FS
+^FO 210, 320^ADR,20,20
+^FD :^FS
+^FO 210,350^ADR,15,12
+^FD {ID}^FS
+
+^FO 180, 155^ADR,20,20
+^FD Color^FS
+^FO 180, 320^ADR,20,20
+^FD :^FS
+^FO 180,350^ADR,15,12
+^FD {COLOR}^FS
+
+^FO 150, 155^ADR,20,20
+^FD P-TYPE^FS
+^FO 150, 320^ADR,20,20
+^FD :^FS
+^FO 150,350^ADR,15,12
+^FD {TYPE}^FS
+
+
+^XZ
+
+-----------------
+
+Dördüncü Kod - QR Bar Code
+
+^XA^PW 320^LL 640 ^PR 2,2^MTT^CI 35^SL 1^JUS^SD 10^^XZ
+
+^XA
+
+^FO 250,50^ADR,36,20
+^FDProduct^FS
+^FO 250,250^ADR,36,20
+^FD:^FS
+^FO 250,300^ADR,30,18
+^FD{NAME}^FS
+
+^FO 100,50^ADR^BY2
+^BQN, 2,6
+^FDMM, 08.07.2024MehmetAliSivri^FS
+
+^FO 200,250^ADR^LRY
+^GB 50,360,50^FS
+^FO 200,270^ADR,32,20
+^FDPEYKAN YAZILIM^FS
+
+^XZ                                                      
+       
+------------------
+
+Beşinci Kod
+
+^XA^PW 320^LL 640 ^PR 2,2^MTT^CI 35^SL 1^JUS^SD 10^^XZ
+
+^XA
+^FO 250,50^ADR^LRY
+^GB 50,300,50^FS
+^FO 250,100^ADR,36,20
+^FDRENAULT^FS
+^FO 250,350^ADR
+^GB 50,250,2^FS
+^FO 250,400,^ADR,36,20
+^FD{MODEL}^FS
+
+^FO 150,50^ADR
+^GB 100,300,2^FS
+^FO 180,70^ADR^BY2
+^BCR,50,Y,N,N
+^FDBARCODE^FS
+
+^FO 150,350^ADR
+^GB 100,250,2^FS
+^FO 200,360,^ADR,30,12
+^FDParça No^FS
+^FO 200,460^ADR,30,12
+^FD:^FS
+^FO 200,480^ADR,30,12
+^FD{NO}^FS
+
+^FO 100,50^ADR,30,12
+^FDDikkat : Arıza Mal Kabul Edilmez
+
+
+^XZ                       
+
+*****************************
+
+******EPL KODLARI*****    
+
+
+Birinci Kod
+
+N
+I8,A,001
+Q640,16
+q320
+D7
+JF
+S2
+
+FK"epl1"
+FS"epl1"
+
+V00,20,N,""
+V01,20,N,""
+V02,20,N,""
+V03,20,N,""
+
+LO50,50,5,500
+LO50,50,200,5
+LO250,50,5,500
+LO50,550,200,5
+LO50,275,200,5
+
+A75,500,3,3,1,1,N,"Ürün ID"
+A75,400,3,3,1,1,N,":"
+A75,370,3,3,1,1,N,V00
+
+A125,500,3,3,1,1,N,"Renk"
+A125,400,3,3,1,1,N,":"
+A125,370,3,3,1,1,N,V01
+
+A175,500,3,3,1,1,N,"En"
+A175,400,3,3,1,1,N,":"
+A175,370,3,3,1,1,N,V01
+
+A225,500,3,3,1,1,N,"Boy"
+A225,400,3,3,1,1,N,":"
+A225,370,3,3,1,1,N,V01
+
+B75,260,3,1,2,3,100,B,"CODE"
+
+FE
+
+N                                          
+FR"epl1"
+?
+XX1
+XX2
+XX3
+XX4
+P1
+
+---------------------------------------------
+
+İkinci Kod 
+
+N
+I8,A,001
+Q640,16
+q320
+D7
+JF
+S2
+
+FK"epl2"
+FS"epl2"
+
+V00,20,N,""
+
+LO05,05,280,3
+LO05,600,280,3
+LO285,05,3,600
+
+LO05,05,60,600
+A20,500,3,3,2,1,R,"TOTALINE YEDEK PARÇA MARKETI"
+
+A85,550,3,1,2,1,N,"DHA 20S LPG'LI HERMETIK KOMBI+BACA SET"
+LO130,05,3,600
+
+B150,550,3,1,2,3,40,N,"PARCACODE"
+LO220,05,3,600
+A240,550,3,1,2,1,N,"01.01.001.0006"
+LO220,300,65,3
+A240,280,3,1,2,1,N,V00
+
+FE
+
+N
+
+FR"epl2"
+?
+09.07.2024
+P1
+
+
+
+
+
+
+
+
+                                                                
